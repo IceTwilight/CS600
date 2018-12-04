@@ -10,7 +10,10 @@ class InvertFile():
 
     def getKeyAndValue(self, keyString):
         loca = self.t.getRefByKey(keyString)
-##        print (loca)
+##        if(keyString == 'values'):
+##            print(loca)
+##        if(keyString == 'value'):
+##            print(loca)
         if loca and loca > 0:
             return self.occurList[loca]
         else:
@@ -22,6 +25,12 @@ class InvertFile():
             self.occurList.append({'keyString':keyString, keyInDictInOccurList: 1})
             loca = self.occurList.index({'keyString':keyString, keyInDictInOccurList: 1})
             self.t.insertNode(keyString, loca)
+##            if(keyString == 'values'):
+##                print(loca)
+##            if(keyString == 'value'):
+##                print("111111111111")
+##                print(loca)
+##                print("111111111111")
         else:
             subOccurList = self.getKeyAndValue(keyString)
             if keyInDictInOccurList in subOccurList.keys():
@@ -46,6 +55,9 @@ class InvertFile():
 ##print (I.getKeyAndValue('acde'))
 ##print("111111111111")
 ##print (I.getRecommendKeyList("ab"))
+##for eachKey in I.getRecommendKeyList("acd"):
+##    print(eachKey)
+##    print(I.getKeyAndValue(eachKey))
 ##print("222222222222")
 ##print (I.occurList)
 ##print("333333333333")

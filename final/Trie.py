@@ -133,13 +133,15 @@ class Trie:
 ##        print(matchIndex)
 ##        print("111111111111")
         keylist = []
+        if currentNode.refToList != None:
+            keylist.append(string[:(matchIndex+1)])
             
         for keyC in childKeyList:
-            s = string[:(matchIndex+1)] + keyC
+            s = string[:(matchIndex)] + keyC
             keylist.append(s)
         return keylist
 
-
+##
 ##tries = Trie()
 ##tries.insertNode(content="abcd", ref="http://abcd.com")
 ##tries.insertNode(content="acde", ref="http://acde.com")
@@ -147,8 +149,11 @@ class Trie:
 ##tries.insertNode(content="acddecxec", ref="http://acde.com")
 ##tries.becomeCompressedTrie()
 ##print (tries.insertList)
-##print (tries.getRefByKey('ab'))
+##print (tries.getRefByKey('acd'))
 ##print (tries.dfsKeyList(root=tries.root))
-##print (tries.getRecommendKeyList("ab"))
+##print (tries.getRecommendKeyList("acd"))
 ##print (tries.root.children['a'].children['b'].hitNum)
 ##print (list(tries.root.children))
+##for eachKey in tries.getRecommendKeyList("acd"):
+##    print(eachKey)
+##    print(tries.getRefByKey(eachKey))
