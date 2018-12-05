@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Search Engine for CS600 Final</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+	<h1 style="margin-left:330px;margin-top:30px;font-size:20px;font-family:Times New Roman,Georgia,Serif;color:#921AFF">Enter your keywords in textarea: </h1>
+    <div class="col-md-12 column">
+      <form method="GET" action="" style="margin-left:300px;margin-top:30px">
+        <div class="col-md-8 column"><input name="key" type="text" class="form-control" placeholder="KeyWords" ></div>
+        <button type="submit" class="btn btn-default btn-primary btn-shadow" style="background:black">Search</button>
+      </form>
+	<br></br>
+    </div>
+	  {% if ol!=False and ol!=None %}
+    <div class="col-md-12 column">
+		<table class="table table-striped">
+		  <thead>
+			<tr style="background-color:#BEBEBE">
+			  <th>#</th>
+			  <th>reference and count</th>
+			  <th> </th>
+			</tr>
+		  </thead>
+		  <tbody>
+			{% for r in rank %}
+			  <tr>
+				<th>{{loop.index}}</th>
+				<td style="font-family:Times New Roman,Georgia,Serif"><a href={{r}}>{{r}}</a></td>
+				<td>{{ol[r]}}</td>
+			  </tr>
+			{% endfor %}
+		  </tbody>
+		</table>
+    </div>
+	  {% endif %}
+</body>
+
+</html>
 
