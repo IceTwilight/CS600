@@ -1,0 +1,3 @@
+{'keyString': 'tantu', 'https://en.wikipedia.org/wiki/Java': 1}
+{'keyString': 'tangerang', 'https://en.wikipedia.org/wiki/Java': 1}
+{'keyString': 'tanks', 'https://en.wikipedia.org/wiki/League_of_Legends': 1}

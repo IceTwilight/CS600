@@ -1,0 +1,34 @@
+{'keyString': 'format=rasterized', 'https://en.wikipedia.org/wiki/Python': 5, 'https://en.wikipedia.org/wiki/C%2B%2B': 5, 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 5, 'https://en.wikipedia.org/wiki/R_(programming_language)': 5, 'https://en.wikipedia.org/wiki/Java': 5, 'https://en.wikipedia.org/wiki/Assembly_language': 5, 'https://en.wikipedia.org/wiki/League_of_Legends': 5, 'https://en.wikipedia.org/wiki/Defense_of_the_Ancients': 5, 'https://en.wikipedia.org/wiki/Pascal_(programming_language)': 5, 'https://en.wikipedia.org/wiki/Huffman_coding': 5}
+{'keyString': 'formatsUse', 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 1}
+{'keyString': 'formatted', 'https://en.wikipedia.org/wiki/R_(programming_language)': 3, 'https://en.wikipedia.org/wiki/Assembly_language': 1, 'https://en.wikipedia.org/wiki/Pascal_(programming_language)': 1}
+{'keyString': 'formatterOptions', 'https://en.wikipedia.org/wiki/R_(programming_language)': 4}
+{'keyString': 'formatter.format', 'https://en.wikipedia.org/wiki/R_(programming_language)': 2}
+{'keyString': 'formatting', 'https://en.wikipedia.org/wiki/R_(programming_language)': 3}
+{'keyString': 'formally', 'https://en.wikipedia.org/wiki/C%2B%2B': 1}
+{'keyString': 'forms', 'https://en.wikipedia.org/wiki/C%2B%2B': 1, 'https://en.wikipedia.org/wiki/R_(programming_language)': 2, 'https://en.wikipedia.org/wiki/Java': 1, 'https://en.wikipedia.org/wiki/Assembly_language': 2, 'https://en.wikipedia.org/wiki/Pascal_(programming_language)': 1}
+{'keyString': 'formed', 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 1, 'https://en.wikipedia.org/wiki/League_of_Legends': 1}
+{'keyString': 'formerly', 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 1, 'https://en.wikipedia.org/wiki/League_of_Legends': 1, 'https://en.wikipedia.org/wiki/Pascal_(programming_language)': 3}
+{'keyString': 'form.attr', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.after', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.amount.length', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.rml_country.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.rml_language.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.rml_submitDate.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.rml_segment.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.Email.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.frequency.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'form.otherAmount.value', 'https://en.wikipedia.org/wiki/R_(programming_language)': 2}
+{'keyString': 'formula', 'https://en.wikipedia.org/wiki/R_(programming_language)': 4, 'https://en.wikipedia.org/wiki/Huffman_coding': 1}
+{'keyString': 'forming', 'https://en.wikipedia.org/wiki/Java': 2}
+{'keyString': 'formParadigmImperative', 'https://en.wikipedia.org/wiki/Assembly_language': 1}
+{'keyString': 'forwards', 'https://en.wikipedia.org/wiki/Python': 12, 'https://en.wikipedia.org/wiki/C%2B%2B': 12, 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 12, 'https://en.wikipedia.org/wiki/R_(programming_language)': 12, 'https://en.wikipedia.org/wiki/Java': 12, 'https://en.wikipedia.org/wiki/Assembly_language': 12, 'https://en.wikipedia.org/wiki/League_of_Legends': 12, 'https://en.wikipedia.org/wiki/Defense_of_the_Ancients': 12, 'https://en.wikipedia.org/wiki/Pascal_(programming_language)': 12, 'https://en.wikipedia.org/wiki/Huffman_coding': 12}
+{'keyString': 'foreign', 'https://en.wikipedia.org/wiki/Python': 1, 'https://en.wikipedia.org/wiki/Java': 1}
+{'keyString': 'foregoing', 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 2}
+{'keyString': 'forests', 'https://en.wikipedia.org/wiki/Java': 2}
+{'keyString': 'forefront', 'https://en.wikipedia.org/wiki/League_of_Legends': 1}
+{'keyString': 'forbid', 'https://en.wikipedia.org/wiki/C%2B%2B': 1}
+{'keyString': 'for_each', 'https://en.wikipedia.org/wiki/C%2B%2B': 1}
+{'keyString': 'forces', 'https://en.wikipedia.org/wiki/Java': 1}
+{'keyString': 'forcing', 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)': 1}
+{'keyString': 'forcibly', 'https://en.wikipedia.org/wiki/Pascal_(programming_language)': 1}
+{'keyString': 'forums', 'https://en.wikipedia.org/wiki/Defense_of_the_Ancients': 1}

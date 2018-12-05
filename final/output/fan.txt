@@ -1,0 +1,6 @@
+{'keyString': 'fan', 'https://en.wikipedia.org/wiki/League_of_Legends': 1}
+{'keyString': 'fancy', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'fans', 'https://en.wikipedia.org/wiki/Assembly_language': 1, 'https://en.wikipedia.org/wiki/League_of_Legends': 1}
+{'keyString': 'fantasy', 'https://en.wikipedia.org/wiki/League_of_Legends': 3}
+{'keyString': 'fanbase', 'https://en.wikipedia.org/wiki/League_of_Legends': 1}
+{'keyString': 'fano', 'https://en.wikipedia.org/wiki/Huffman_coding': 2}

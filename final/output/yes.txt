@@ -1,0 +1,4 @@
+{'keyString': 'yes', 'https://en.wikipedia.org/wiki/C%2B%2B': 1, 'https://en.wikipedia.org/wiki/R_(programming_language)': 6}
+{'keyString': 'yes-button', 'https://en.wikipedia.org/wiki/R_(programming_language)': 4}
+{'keyString': 'yes/no', 'https://en.wikipedia.org/wiki/R_(programming_language)': 1}
+{'keyString': 'yeshi', 'https://en.wikipedia.org/wiki/League_of_Legends': 1}
