@@ -23,6 +23,7 @@ class SearchEngine():
 ##        print(webDict)
         f.close()
         stopKeys = list(set(stopwords.words('english')))
+        #print(stopKeys)
 
         for website in webDict:
 ##            print(website)
@@ -30,13 +31,18 @@ class SearchEngine():
             soup = BeautifulSoup(f.read(),features="html.parser")
             
             listWords  = word_tokenize(soup.get_text())
+            for word in listWords:
+                word = word.lower()
             filteredWords = [w for w in listWords if not w in stopKeys]
-##            print(filteredWords)
+##            if 'you' in filteredWords:
+##                print("yes")
+
+            #print(filteredWords)
 
             for word in filteredWords:
                 #len(word) to avoid useless key and to avoid a big result
                 if len(word) >= 3:
-                    word = word.lower()
+                    #word = word.lower()
                     # print(word)
                     # print(webDict[website])
                     self.invertFile.insertNewKeyValue(word, webDict[website])
@@ -64,38 +70,38 @@ class SearchEngine():
 ##print(se.getRecommendWebsite('value'))
 ###print(list((se.invertFile.t)))
 
-circleI = 1
-se = SearchEngine()
-print("Initializing...")
-se.createTrie()
-print("Initialization complete!")
-while circleI:
-    keyString = input("Please enter your keyword to get recommendation! (The length of keyword should larger than 3)")
-##    print(type(keyString))
-    if type(keyString) != str or len(keyString) < 3:
-        print("Please enter available keyword")
-        continue
-    print("The irrelevant key is in the follow list: \n")
-    print(se.getRecommendKeyList(keyString))
-    print('\n')
-    print("For every irrelevant key, the recommend websites are as follows: \n")
-    print(se.getRecommendWebsite(keyString))
-    print('\n')
-    print("The result will stored in \"output\" file in" + keyString + ".txt + \n")
-    outputAddress = "./output/" + keyString + ".txt"
-    writeResult = open(outputAddress, "w")
-##    writeResult.writelines(se.getRecommendWebsite(keyString))
-    for recommendWebsite in se.getRecommendWebsite(keyString):
-##        s = json.dumps(recommendWebsite)
-        s = str(recommendWebsite)
-##        print(s)
-        writeResult.write( s + '\n')
-    writeResult.close()
-    circleI = int(input("Want to try another key? 1 for yes, 0 for no"))
-    if circleI != 1 and circleI !=0:
-        print("Wrong choice, the program will be ended")
-        circleI = 0
-    
+##circleI = 1
+##se = SearchEngine()
+##print("Initializing...")
+##se.createTrie()
+##print("Initialization complete!")
+##while circleI:
+##    keyString = input("Please enter your keyword to get recommendation! (The length of keyword should larger than 3)")
+####    print(type(keyString))
+##    if type(keyString) != str or len(keyString) < 3:
+##        print("Please enter available keyword")
+##        continue
+##    print("The irrelevant key is in the follow list: \n")
+##    print(se.getRecommendKeyList(keyString))
+##    print('\n')
+##    print("For every irrelevant key, the recommend websites are as follows: \n")
+##    print(se.getRecommendWebsite(keyString))
+##    print('\n')
+##    print("The result will stored in \"output\" file in" + keyString + ".txt + \n")
+##    outputAddress = "./output/" + keyString + ".txt"
+##    writeResult = open(outputAddress, "w")
+####    writeResult.writelines(se.getRecommendWebsite(keyString))
+##    for recommendWebsite in se.getRecommendWebsite(keyString):
+####        s = json.dumps(recommendWebsite)
+##        s = str(recommendWebsite)
+####        print(s)
+##        writeResult.write( s + '\n')
+##    writeResult.close()
+##    circleI = int(input("Want to try another key? 1 for yes, 0 for no"))
+##    if circleI != 1 and circleI !=0:
+##        print("Wrong choice, the program will be ended")
+##        circleI = 0
+##    
 
 
 
